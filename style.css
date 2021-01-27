@@ -1,0 +1,97 @@
+body {
+  background-color: #EEF7EC;
+  font-family: 'Roboto', sans-serif;
+  color: #243038;
+  line-height: 24px;
+}
+
+h1 {
+  color: #243038;
+  font-family: 'Coda Caption', sans-serif;
+  font-size:56px;
+}
+h2 {
+  color: #243038;
+  font-family: 'Coda Caption', sans-serif;
+  font-size: 32px;
+}
+
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #BD3044;
+  transition: background 0.3s ease;
+  width: 600px;
+  text-decoration: none;
+}
+
+.btn-flat:hover {
+  background: #BD3092;
+  color: white;
+  width: 400px;
+  transition: margin-right 2s ease-in-out;
+}
+
+.profile {
+  width: 250px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+
+.card-light {
+  margin: 30px auto;
+  background:#BBF3AA;
+  border: none;
+  padding: 30px;
+  border-radius: 4px;                        /* Small radius */*/
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+  width: 900px;
+  height: auto;
+}
+
+.card-light:hover {
+  background:#B9FF87;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline li a {
+  font-size: 36px;
+  color: #787878;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.text-description {
+  font-size: 28px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-light {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-light {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-light {
+    width: 300px;
+  }
+}
